@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #caf0f8;
+    font-family: 'Original Surfer', cursive;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border: 0;
+    border-radius: 10px;
+}
+
+h1,h2,h3,h4,p {
+    margin: 0;
+}
+
+.margin-bl {
+    margin: 0 0 20px 20px;
+}
+
+.margin-bt {
+    margin: 10px 0;
+}
+
+.margin-t {
+    margin: 10px 0 0;
+}
+
+.margin-lr {
+    margin: 0 10px;
+}
+
+#title {
+    width: 300px;
+    text-align: start;
+}
+
+#title-des{
+    width: 600px;
+    text-align: start;
+}
+
+.hero {
+    background-image: url("images/mangalore.jpg");
+    background-size: cover;
+    color: #219EBC;
+    text-shadow: 0 0 5px black;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.sub-title {
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    background-color: #ff7f51;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.main-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item {
+    width: 250px;
+    background-color: #023047;
+    color: white;
+    text-shadow: 0 0 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0 0;
+}
+
+#profile-pic {
+    height: 150px;
+    width: 150px;
+    object-fit: scale-down;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: #0077b6;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0 0 5px black;
+    border-bottom: 5px solid #03045e; 
+}
